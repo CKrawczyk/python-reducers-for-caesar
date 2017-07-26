@@ -13,11 +13,14 @@ setup(name='panoptes_aggregation',
            packages=find_packages(),
            include_package_data=True,
            install_requires=[
+               'flask',
                'numpy',
                'pandas',
                'progressbar2',
                'python-slugify',
                'scikit-image',
                'scikit-learn',
-               'scipy'
+               'scipy',
+               'slugify',
+               'werkzeug'
            ])
